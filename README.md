@@ -5,7 +5,7 @@ Before start on this project make sure if you already have installed:
 * [NodeJS](https://nodejs.org/download).
 * [Node Package Manager](https://www.npmjs.com)
 * Any terminal commandline application
-* Arduino working as the skemathics (git://github.com/vitorlevi/openbox.git/schematic.jpg)
+* Arduino working as the skemathics (https://github.com/vitorlevi/openbox/blob/master/schematic.jpg)
 
 
 ## Quick start
