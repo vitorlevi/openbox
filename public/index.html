@@ -1,0 +1,36 @@
+<!DOCTYPE>
+<html ng-app="myApp">
+<head>
+	<meta charset="UTF-8">
+	<title>Open Box</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+<style type="text/css">
+	
+	#container{
+		margin-top: 100px;
+	}
+	h3{
+		color: gray;
+	}
+</style>
+</head>
+<body>
+<div class="container" ng-controller="AppCtrl">
+	<h1> Violating Box</h1>
+	<h3>This is a demo using Arduino with Photocell sensor</h3>
+	<p>Technologies: NodeJS, Jhonny-Five (JS lib to comunicate with Arduino), ExpressJS (to serve and route),<br> Socket.io as a websocket broadcasting data, AngularJS and Highcharts to show sensor response</p>
+	<div id="container" style="width:100%; height:400px;"></div>
+</div>
+
+<script src="js/angular.min.js"></script>
+<script src="controllers/controller.js"></script>
+<script src="js/socket.io-1.2.0.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script src="http://code.highcharts.com/highcharts.js"></script>
+<script src="http://code.highcharts.com/highcharts-more.js"></script>
+<script src="http://code.highcharts.com/modules/exporting.js"></script>
+</body>
+</html>
+
